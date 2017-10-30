@@ -7,9 +7,18 @@
     <groupId>curiouser.com</groupId>
     <artifactId>corejava</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
     <!-- 添加Log4J组件，并添加Log4j发送日志到Flume的Appender组件-->
