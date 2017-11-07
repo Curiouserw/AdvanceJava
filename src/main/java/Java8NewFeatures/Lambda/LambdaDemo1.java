@@ -1,4 +1,4 @@
-package Lamda;
+package Java8NewFeatures.Lambda;
 
 import java.util.Arrays;
 import java.util.Collections;

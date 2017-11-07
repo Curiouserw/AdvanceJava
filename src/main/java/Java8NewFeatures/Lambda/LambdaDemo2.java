@@ -1,4 +1,4 @@
-package Lamda;
+package Java8NewFeatures.Lambda;
 
 public class LambdaDemo2 {
 	

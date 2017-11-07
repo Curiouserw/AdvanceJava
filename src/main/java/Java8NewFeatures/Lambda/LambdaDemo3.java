@@ -1,4 +1,4 @@
-package Lamda;
+package Java8NewFeatures.Lambda;
 
 public class LambdaDemo3 {
 	public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class LambdaDemo3 {
 		return "i="+i;
 	}
 }
+
 interface Action3{
 	public String run(int Integer);
 }
