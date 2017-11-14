@@ -1,4 +1,4 @@
-package Utils.XML;
+package Utils.XML.XML;
 
 import java.io.FileInputStream;
 import java.io.IOException;

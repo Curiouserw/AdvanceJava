@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cds>
+	<cd id="c1">
+		<tilte>Empire Burlesque</tilte>
+		<artist>Bob Dylan</artist>
+		<country>USA</country>
+		<company>Columbia</company>
+		<price>10.90</price>
+		<year>2010</year>
+	</cd>
+	<cd id="c2">
+		<tilte>Hide your heart</tilte>
+		<artist>Bonnie Tyler</artist>
+		<company>UK</company>
+		<price>9.90</price>
+		<year>2008</year>
+	</cd>
+	<cd id="c3">
+		<tilte>Greatest Hits</tilte>
+		<artist>Dolly Parton</artist>
+		<country>USA</country>
+		<company>RCA</company>
+		<price>9.90</price>
+		<year>2012</year>
+	</cd>
+	<cd id="c4">
+		<tilte>Still got the blues</tilte>
+		<artist>Gary Moore</artist>
+		<country>UK</country>
+		<company>Virgin records</company>
+		<price>10.20</price>
+		<year>2010</year>
+	</cd>
+	<cd id="c5">
+		<tilte>Eros</tilte>
+		<artist>Eros Ramazzotti</artist>
+		<country>EU</country>
+		<company>BMG</company>
+		<price>9.90</price>
+		<year>2007</year>
+	</cd>
+	<cd id="c6">
+		<tilte>One night only</tilte>
+		<artist>Bee Gees</artist>
+		<country>UK</country>
+		<company>Polydor</company>
+		<price>10.90</price>
+		<year>2008</year>
+	</cd>
+	<cd id="c7">
+		<tilte>Sylvias Mother</tilte>
+		<artist>Dr.Hook</artist>
+		<country>UK</country>
+		<company>CBS</company>
+		<price>8.10</price>
+		<year>2013</year>
+	</cd>
+	<cd id="c8">
+		<tilte>Maggie May</tilte>
+		<artist>Rod Stewart</artist>
+		<country>UK</country>
+		<company>Pickwick</company>
+		<price>8.50</price>
+		<year>2012</year>
+	</cd>
+	<cd id="c9">
+		<tilte>Romanza</tilte>
+		<artist>Andrea Bocelli</artist>
+		<country>EU</country>
+		<company>Polydor</company>
+		<price>10.80</price>
+		<year>2010</year>
+	</cd>
+	<cd id="c10">
+		<tilte>When a man loves a woman</tilte>
+		<artist>Percy Sledge</artist>
+		<country>USA</country>
+		<company>Atlantic</company>
+		<price>8.70</price>
+		<year>2009</year>
+	</cd>
+</cds>
