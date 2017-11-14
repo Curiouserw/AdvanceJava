@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Libraries (library*)>
+<!-- ++++++++++++++++++++++++++++++++++++  -->
+
+<!ELEMENT library ((Books*),(Administrator*))>
+    <!-- ++++++++++++++++++++++++++++++++++++ -->
+
+<!ELEMENT Books (basicInfo,extendInfo,Press)>
+    <!-- +++++++++++++++++++++++++++++ -->
+<!ELEMENT basicInfo ( Name,Price,ISBN,Type,Author,ID )>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+     <!--  ++++++++++++++ -->
+<!ELEMENT extendInfo (StorageTime,StorageCount,Agent)>
+<!ELEMENT StorageTime (#PCDATA)>
+<!ELEMENT StorageCount (#PCDATA)>
+<!ELEMENT Agent (#PCDATA)>
+     <!--  +++++++++++++++++　-->
+<!ELEMENT Press (BasicInfo,AdvanceInfo)>
+
+<!ELEMENT BasicInfo (NAME,position,symbol,contact)>
+<!ELEMENT NAME (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT symbol (#PCDATA)>
+
+	<!ELEMENT contact (MobilePhone,Fax,Email)>
+	<!ELEMENT MobilePhone (#PCDATA)>
+	<!ELEMENT Fax (#PCDATA)>
+	<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT AdvanceInfo (BOOKs,publish,publishbooks)>
+<!ELEMENT BOOKs (#PCDATA)>
+<!ELEMENT publish (#PCDATA)>
+<!ELEMENT publishbooks (#PCDATA)>
+<!--　＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋　　-->
+
+
+<!ELEMENT Administrator (identifier,name,Contact,ControlRange)>
+<!ELEMENT identifier (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Contact (#PCDATA)>
+<!ELEMENT ControlRange (#PCDATA)>
+<!--　＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋　　-->
+
+<!ATTLIST library name  CDATA #REQUIRED
+				  position  CDATA #REQUIRED
+				  capability  CDATA #REQUIRED
+				  opentime CDATA #REQUIRED>
+<!ATTLIST Books id CDATA #REQUIRED>
+
+
+
+

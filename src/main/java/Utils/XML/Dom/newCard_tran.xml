@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nameCard color="blue" style="rectangle">
+<sulation><![CDATA[Mr.]]></sulation>
+<first-name>ren</first-name>
+<last-name>terry</last-name>
+<address>
+<country>China</country>
+<city>shanghai</city>
+<street>XueYuan.Rd</street>
+</address>
+<comment>
+<!--comment test-->
+</comment>
+<Email>renqs@briup.com</Email>
+<phone>123456</phone>
+</nameCard>
